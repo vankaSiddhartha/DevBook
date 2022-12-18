@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadFrag">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="380dp"
+            android:layout_height="289dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.097" />
+
+        <EditText
+            android:id="@+id/title_up"
+            android:layout_width="334dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Title"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/videoView"
+            app:layout_constraintVertical_bias="0.158" />
+
+        <Button
+            android:id="@+id/tumbnail"
+            android:layout_width="250dp"
+            android:layout_height="71dp"
+            android:text="Upload thumbnail"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_up"
+            app:layout_constraintVertical_bias="0.126" />
+
+        <Button
+            android:id="@+id/up_video"
+            android:layout_width="250dp"
+            android:layout_height="71dp"
+            android:text="Upload Video"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_up"
+            app:layout_constraintVertical_bias="0.533" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

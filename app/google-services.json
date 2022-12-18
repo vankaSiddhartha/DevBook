@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "399112781064",
+    "project_id": "devbook-79c29",
+    "storage_bucket": "devbook-79c29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399112781064:android:4810609be38baeb6aa80bd",
+        "android_client_info": {
+          "package_name": "com.vanka.devbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399112781064-uunrlgngrmqrd2jnfrta6ujus5jtjj9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnFn78GT4Vhz9SxnTAOzE76Iu2ABr9bkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399112781064-uunrlgngrmqrd2jnfrta6ujus5jtjj9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
